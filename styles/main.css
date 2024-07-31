@@ -1,0 +1,36 @@
+body {
+    font-family: "Consolas", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #DBD4D3;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+    flex-grow: 1;
+    /* Allow h1 to take available space */
+}
+
+footer {
+    background-color: #DBD4D3;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: purple;
+}
