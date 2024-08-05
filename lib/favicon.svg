@@ -1,16 +1,6 @@
-<svg viewBox="0 0 130 50" xmlns="http://www.w3.org/2000/svg" style="background-color: transparent;">
-  <!-- j -->
-  <rect x="10" y="0" width="10" height="10" fill="#000000" />
-  <rect x="10" y="20" width="10" height="20" fill="#000000" />
+<svg viewBox="0 0 130 50" xmlns="http://www.w3.org/2000/svg" style="background-color: #DBD4D3;">
+ <!-- J -->
+  <rect x="0" y="0" width="30" height="10" fill="#000000" />
+  <rect x="10" y="0" width="10" height="40" fill="#000000" />
   <rect x="0" y="30" width="20" height="10" fill="#000000" />
-  <!-- k -->
-  <rect x="30" y="0" width="10" height="40" fill="#000000" />
-  <rect x="30" y="20" width="20" height="10" fill="#000000" />
-  <rect x="50" y="10" width="10" height="10" fill="#000000" />
-  <rect x="50" y="30" width="10" height="10" fill="#000000" />
-  <!-- 0 -->
-  <rect x="70" y="10" width="10" height="30" fill="#000000" />
-  <rect x="70" y="10" width="30" height="10" fill="#000000" />
-  <rect x="70" y="30" width="30" height="10" fill="#000000" />
-  <rect x="90" y="10" width="10" height="30" fill="#000000" />
 </svg>
