@@ -1,0 +1,15 @@
+<svg viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" style="background-color: transparent;">
+  <!-- J -->
+  <rect x="20" y="0" width="10" height="10" fill="#000000" />
+  <rect x="20" y="20" width="10" height="30" fill="#000000" />
+  <rect x="10" y="40" width="20" height="10" fill="#000000" />
+  <!-- A -->
+  <rect x="50" y="10" width="20" height="30" fill="#000000" />
+  <rect x="40" y="20" width="30" height="20" fill="#000000" />
+  <!-- Y -->
+  <rect x="80" y="20" width="30" height="10" fill="#000000" />
+  <rect x="80" y="10" width="10" height="20" fill="#000000" />
+  <rect x="100" y="10" width="10" height="30" fill="#000000" />
+  <rect x="80" y="40" width="20" height="10" fill="#000000" />
+</svg>
+

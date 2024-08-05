@@ -6,31 +6,71 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 h1 {
     text-align: center;
     margin-top: 20%;
     flex-grow: 1;
-    /* Allow h1 to take available space */
 }
 
-footer {
+.logo {
+    width: 100%;
+    height: 100%;
+    max-width: 600px; 
+}
+
+.header {
+    background-color: #DBD4D3;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2em; /* Set font size for header */
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+.header a:hover {
+    color: purple;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-grow: 1; /* Take remaining space */
+}
+
+.footer {
     background-color: #DBD4D3;
     text-align: center;
     padding: 1em 0;
     margin-top: auto;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.2em; /* Set font size for footer */
 }
 
-footer a {
+.footer a {
     color: #333;
     text-decoration: none;
     margin: 0 10px;
 }
 
-footer a:hover {
+.footer a:hover {
     color: purple;
 }
