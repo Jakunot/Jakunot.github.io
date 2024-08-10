@@ -1,8 +1,9 @@
 body {
     font-family: "Consolas", monospace;
+    font-weight: bold;
     margin: 0;
     padding: 0;
-    background-color: #DBD4D3;
+    background-color: #E1E5F2;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -24,13 +25,13 @@ h1 {
 }
 
 .header {
-    background-color: #DBD4D3;
+    background-color: #E1E5F2;
     display: flex;
     justify-content: space-between;
     padding: 1em 2em;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1.2em; /* Set font size for header */
+    font-size: 1.1em; 
 }
 
 .header nav {
@@ -46,23 +47,135 @@ h1 {
 }
 
 .header a:hover {
-    color: purple;
+    color: #69359c ;
 }
 
 main {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-grow: 1; /* Take remaining space */
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1; 
+}
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.showcase p {
+    font-size: 1rem;
+    margin: 0 0 10px;
+    max-width: 800px; 
+}
+
+.showcase hr {
+    display: grid;
+    width: 80vw;
+    color: #D4DAED;
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1.25rem;
+    transition: 0.15s ease-in;
+}
+.card-header {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.card p{
+    font-size: 0.9em;
+}
+.card h2{
+    font-size:1em;
+    text-decoration: underline;
+}   
+
+.icon-button {
+    border: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    transition: 0.25s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.icon-button:hover, .icon-button:focus {
+    background-color: gray;
+    color: #FFF;
+}
+
+.card-footer {
+    margin-top: 1.25rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.7em; 
+}
+
+
+.card:hover, .card:focus-within{
+    box-shadow: 0 0 0 2px #69359c , 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.card-meta {
+    display: flex;
+    align-items: center;
+    color: #787878;
+}
+.card-meta:first-child:after {
+    display: block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: currentcolor;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+svg{
+    width: 1em;
+    height: 1em;
 }
 
 .footer {
-    background-color: #DBD4D3;
+    background-color: #E1E5F2;
     text-align: center;
     padding: 1em 0;
     margin-top: auto;
     width: 100%;
-    font-size: 1.2em; /* Set font size for footer */
+    font-size: 1.1em;
 }
 
 .footer a {
@@ -72,5 +185,5 @@ main {
 }
 
 .footer a:hover {
-    color: purple;
+    color: #69359c ;
 }
