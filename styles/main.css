@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
 }
 
 h1 {
@@ -55,13 +55,14 @@ main {
     justify-content: center; 
     align-items: center; 
     flex-grow: 1; 
+    overflow-y: auto;
 }
 .card-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-    width: 100%;
+    width: calc(100% - 40px);
     max-width: 1200px;
     margin: auto;
 }
